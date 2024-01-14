@@ -2,9 +2,14 @@
 
 
 let nomeDoHeroi = "Alberto"
-let saldoDeVitorias = diferença(15,3)
+let saldoDeVitorias = diferença(150,3)
 let nivelDoHeroi = classificaçao (saldoDeVitorias)
+console.log("\nO  herói " + nomeDoHeroi + " tem saldo de " + saldoDeVitorias + " vitórias. Seu nível é \n" + nivelDoHeroi)
 
+
+ nomeDoHeroi = "ítalo"
+ saldoDeVitorias = diferença(5,3)
+ nivelDoHeroi = classificaçao (saldoDeVitorias)
 console.log("\nO  herói " + nomeDoHeroi + " tem saldo de " + saldoDeVitorias + " vitórias. Seu nível é \n" + nivelDoHeroi)
 
 
